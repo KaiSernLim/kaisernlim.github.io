@@ -1,17 +1,16 @@
 <template id="app">
-  <div id="app">
-    <nav-bar></nav-bar>
-    <welcome></welcome>
-    <about></about>
-    <academics></academics>
-    <experience></experience>
-    <projects></projects>
-    <skills></skills>
-    <interests></interests>
-    <contact></contact>
-  </div>
-  <site-footer></site-footer>
+<div id="app">
+  <nav-bar></nav-bar>
+  <welcome></welcome>
+  <about></about>
+  <academics></academics>
+  <experience></experience>
+  <projects></projects>
+  <skills></skills>
+  <interests></interests>
+  <contact></contact>
 </div>
+<site-footer></site-footer>
 </template>
 
 <script>
@@ -43,34 +42,51 @@ export default {
 </script>
 
 <style lang="sass">
-@import './styles.scss';
+@import './assets/css/normalize.min.css';
+@import './assets/css/skeleton.min.css';
+@import './assets/css/styles.scss';
+
+body {
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+  background-color: $sugar-cane;
+  color: $nile-blue;
+}
 
 h1 {
+  font-family: 'Montserrat';
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   &.hero-heading {
     font-size: 100px;
   }
 }
 
-a {
-  color: $viridian;
+h4 {
+  font-size: 2rem;
 }
 
-body {
-  font-family: 'Alegreya Sans', sans-serif;
-  position: relative;
-  // color: $jelly-bean;
-  // background-color: $cabaret;
+h5 {
+  font-size: 1.7rem;
+}
+
+a {
+  color: $puerto-rico;
+  transition: all 200ms ease;
 }
 
 ::selection {
   text-shadow: none;
-  background: rgba($cabaret, 0.25);
+  background: rgba($puerto-rico, 0.25);
 }
 
 .no-margin {
   margin: 0;
+}
+
+.no-padding {
+  padding: 0 !important;
 }
 
 .align-right {
@@ -81,15 +97,6 @@ body {
   text-align: left;
 }
 
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-.in-view {
-  opacity:0;
-	animation:fadeIn ease-in 1;
-	animation-fill-mode:forwards;
-	animation-duration:1s;
-}
-
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
@@ -98,19 +105,25 @@ body {
   &-standalone {
     margin: 0 1rem;
   }
+  &-primary {
+    background-color: $puerto-rico !important;
+    border-color: $puerto-rico !important;
+  }
 }
 
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 section {
   /*padding: 8rem 0 7rem;*/
-  padding: 12rem 0;
+  // padding: 12rem 0;
+  padding: 8rem 0;
   text-align: center;
 }
+
 .section {
   &-even {
     /*background-color: #041E42;*/
-    background-color: $amber;
+    background-color: rgba($puerto-rico, 0.5);
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -119,6 +132,9 @@ section {
     margin-bottom: 1.2rem;
   }
 }
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Bigger than 550 */
 @media (min-width: 550px) {

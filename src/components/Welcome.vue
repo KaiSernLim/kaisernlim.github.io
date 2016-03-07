@@ -1,7 +1,7 @@
 <template id="welcome">
   <section id="welcome">
-    <div contenteditable="true" style="padding-top: 11rem;">
-      <h1 class="hero-heading">Kai-Sern<br> Lim</h1>
+    <div>
+      <h1 class="hero-heading">Kai-Sern Lim</h1>
     </div>
     <div style="text-align: center;">
       <a href="http://leveltwo.github.io" class="button button-standalone button-primary">Web Quizzes</a>
@@ -11,5 +11,14 @@
   </section>
 </template>
 
-
-<scri<script>pt></scri</script>pt>
+<style>
+  .hero-heading {
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: center;
+    padding-top: 10rem;
+  }
+</style>

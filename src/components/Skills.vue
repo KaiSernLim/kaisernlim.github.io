@@ -1,9 +1,11 @@
 <template id="skills">
   <section id="skills">
     <div class="container animation-element">
-      <h1>&#x1F4A1;Skills</h1>
+
+      <h1>&#x1F4A1;Skills <button v-on:click="toggleImages">+</button></h1>
       <h2>Programming</h2>
       <b>Over 5000 Lines:</b>
+
       <div class="row">
         <div class="one-half column">
           <img src="../assets/images/python.svg" class="img-100" />
@@ -14,6 +16,7 @@
           <p>Java</p>
         </div>
       </div>
+
       <b>Familiar:</b>
       <div class="row">
         <div class="two columns">
@@ -41,6 +44,7 @@
           <p>Apache Spark</p>
         </div>
       </div>
+
       <h2>Non-Programming</h2>
       <b>Skilled In:</b>
       <div class="row">
@@ -75,6 +79,26 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  data: function () {
+    return {
+      visible: false
+    }
+  },
+  methods: {
+    toggleImages: function () {
+      this.data.visible = !this.data.visible
+      // var imgs = document.getElementsByClassName('img-100')
+      // console.log(imgs)
+      // imgs.style.display = 'none'
+      // imgs.style.visibility = 'hidden'
+      // imgs.style.visibility = (false ? 'visible' : 'hidden')
+    }
+  }
+}
+</script>
 
 <style>
 .img-100 {

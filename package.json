@@ -7,6 +7,8 @@
     "build": "rimraf dist && webpack --progress --hide-modules --config build/webpack.prod.conf.js"
   },
   "dependencies": {
+    "jquery": "^2.2.1",
+    "mojs": "^0.2.0",
     "vue": "^1.0.15"
   },
   "devDependencies": {
@@ -28,10 +30,13 @@
     "function-bind": "^1.0.2",
     "html-webpack-plugin": "^1.7.0",
     "inject-loader": "^2.0.1",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.8.0",
     "json-loader": "^0.5.4",
     "node-sass": "^3.4.2",
     "rimraf": "^2.5.0",
     "sass-loader": "^3.1.2",
+    "template-html-loader": "0.0.3",
     "url-loader": "^0.5.7",
     "vue-hot-reload-api": "^1.2.0",
     "vue-html-loader": "^1.0.0",

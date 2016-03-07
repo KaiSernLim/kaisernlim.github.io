@@ -1,4 +1,5 @@
 var path = require('path')
+var webpack = require('webpack')
 
 module.exports = {
   entry: {
@@ -12,7 +13,8 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.vue'],
     alias: {
-      'src': path.resolve(__dirname, '../src')
+      'src': path.resolve(__dirname, '../src'),
+      jquery: 'jquery/dist/jquery'
     }
   },
   resolveLoader: {
@@ -48,9 +50,25 @@ module.exports = {
           limit: 10000,
           name: '[name].[ext]?[hash:7]'
         }
+      },
+      {
+        test: /\.(eot|woff|woff2|ttf)$/,
+        loader: 'url',
+        query: {
+          limit: '30000',
+          name: '[name]-[hash].[ext]'
+        }
       }
     ]
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery',
+      'window.jQuery': 'jquery',
+      'root.jQuery': 'jquery'
+    })
+  ],
   vue: {
     loaders: {
       js: 'babel!eslint'
