@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row">
       <div class="four columns">
-        <p class="no-margin">Copyright © {{ year }} Kai-Sern Lim</p>
+        <p class="no-margin">Copyright &#xa9; {{ year }} Kai-Sern Lim</p>
       </div>
       <div class="four columns">
         <p class="no-margin"><i class="fa fa-map-marker"></i> San Jose, CA</p>

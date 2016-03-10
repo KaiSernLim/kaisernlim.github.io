@@ -55,7 +55,7 @@ body {
 }
 
 h1 {
-  font-family: 'Montserrat';
+  font-family: Montserrat, sans-serif;
   text-align: center;
   font-weight: 500;
   &.hero-heading {
