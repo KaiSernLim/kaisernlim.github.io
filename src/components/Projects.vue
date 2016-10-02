@@ -62,21 +62,21 @@
     <div class="row">
       <div class="one-third column">
         <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa15/upload/files/proj1/cs194-bv/">
-          <img src="../assets/images/colorizing.jpg" class="u-max-full-width" />
+          <img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/463_files/image004.jpg" class="u-max-full-width" />
           <br>
           Colorizing the Prokudin-Gorskii Photo Collection
         </a>
       </div>
       <div class="one-third column">
         <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa15/upload/files/proj3/cs194-bv/">
-          <img src="../assets/images/orple.jpg" class="u-max-full-width" />
+          <img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/463_files/orple.jpg" class="u-max-full-width" />
           <br>
           Fun With Frequencies!
         </a>
       </div>
       <div class="one-third column">
         <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa15/upload/files/proj4/cs194-bv/">
-          <img src="../assets/images/seam.jpg" class="u-max-full-width" />
+          <img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/463_files/image007.jpg" class="u-max-full-width" />
           <br>
           Seam Carving
         </a>
@@ -86,7 +86,7 @@
     <div class="row">
       <div class="one-third column">
         <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa15/upload/files/proj5/cs194-bv/">
-          <img src="../assets/images/morph.png" class="u-max-full-width" />
+          <img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/463_files/morph.png" class="u-max-full-width" />
           <br>
           Face Morphing
         </a>
@@ -100,7 +100,7 @@
       </div>
       <div class="one-third column">
         <a href="https://inst.eecs.berkeley.edu/~cs194-26/fa15/upload/files/proj7B/cs194-bv/">
-          <img src="../assets/images/pano.jpg" class="u-max-full-width" />
+          <img src="https://inst.eecs.berkeley.edu/~cs194-26/fa14/463_files/image028.jpg" class="u-max-full-width" />
           <br>
           Autostitching &amp; Photo Mosaics
         </a>
