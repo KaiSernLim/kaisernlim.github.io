@@ -1,8 +1,8 @@
 <template id="skills">
-  <section id="skills">
+  <section id="skills" class="section-even">
     <div class="container animation-element">
 
-      <h1>&#x1F4A1;Skills <button v-on:click="toggleImages">+</button></h1>
+      <h1>&#x1F4A1;Skills</h1>
       <h2>Programming</h2>
       <b>Over 5000 Lines:</b>
 
@@ -80,30 +80,8 @@
   </section>
 </template>
 
-<script>
-export default {
-  data: function () {
-    return {
-      visible: false
-    }
-  },
-  methods: {
-    toggleImages: function () {
-      this.data.visible = !this.data.visible
-      // var imgs = document.getElementsByClassName('img-100')
-      // console.log(imgs)
-      // imgs.style.display = 'none'
-      // imgs.style.visibility = 'hidden'
-      // imgs.style.visibility = (false ? 'visible' : 'hidden')
-    }
-  }
-}
-</script>
-
 <style>
 .img-100 {
   max-height: 60px;
-  /*border-radius: 50%;
-  background-color: gray;*/
 }
 </style>

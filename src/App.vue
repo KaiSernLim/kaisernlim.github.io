@@ -7,10 +7,9 @@
   <experience></experience>
   <projects></projects>
   <skills></skills>
-  <interests></interests>
   <contact></contact>
+  <site-footer></site-footer>
 </div>
-<site-footer></site-footer>
 </template>
 
 <script>
@@ -18,7 +17,6 @@ import About from './components/About'
 import Academics from './components/Academics'
 import Contact from './components/Contact'
 import Experience from './components/Experience'
-import Interests from './components/Interests'
 import NavBar from './components/NavBar'
 import Projects from './components/Projects'
 import SiteFooter from './components/SiteFooter'
@@ -31,7 +29,6 @@ export default {
     Academics,
     Contact,
     Experience,
-    Interests,
     NavBar,
     Projects,
     SiteFooter,
@@ -47,11 +44,11 @@ export default {
 @import './assets/css/styles.scss';
 
 body {
+  background-color: $sugar-cane;
+  color: $nile-blue;
   font-style: normal;
   font-weight: 400;
   position: relative;
-  background-color: $sugar-cane;
-  color: $nile-blue;
 }
 
 h1 {
@@ -114,15 +111,12 @@ a {
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 section {
-  /*padding: 8rem 0 7rem;*/
-  // padding: 12rem 0;
   padding: 8rem 0;
   text-align: center;
 }
 
 .section {
   &-even {
-    /*background-color: #041E42;*/
     background-color: rgba($puerto-rico, 0.5);
     background-position: center;
     background-repeat: no-repeat;

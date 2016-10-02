@@ -19,6 +19,6 @@
     margin: 20px auto;
     max-width: 500px;
     text-align: center;
-    padding-top: 10rem;
+    padding-top: 8rem;
   }
 </style>

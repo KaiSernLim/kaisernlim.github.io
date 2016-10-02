@@ -1,2 +1,2 @@
-# kaisernlim.gihub.io
+# kaisernlim.github.io
 Personal website

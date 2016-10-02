@@ -8,8 +8,7 @@
   },
   "dependencies": {
     "jquery": "^2.2.1",
-    "mojs": "^0.2.0",
-    "vue": "^1.0.15"
+    "vue": "^2.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
@@ -38,9 +37,9 @@
     "sass-loader": "^3.1.2",
     "template-html-loader": "0.0.3",
     "url-loader": "^0.5.7",
-    "vue-hot-reload-api": "^1.2.0",
+    "vue-hot-reload-api": "^2.0.6",
     "vue-html-loader": "^1.0.0",
-    "vue-loader": "^8.0.0",
+    "vue-loader": "^9.5.0",
     "vue-style-loader": "^1.0.0",
     "webpack": "^1.12.2",
     "webpack-dev-middleware": "^1.4.0",

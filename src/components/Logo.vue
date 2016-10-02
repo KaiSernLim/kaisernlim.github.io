@@ -2,16 +2,6 @@
 <li id="logo">
   <a href="#about">
     <svg class="logo" viewBox="0 0 740 740">
-    <style type="text/css">
-      .a{fill:#4ecdc4;}
-      .b{fill:#ffe66d;}
-      .c{fill:#f7fff7;}
-      .d{fill:#ff6b6b;}
-      .e{fill:none;stroke:#1a535c;
-      stroke-linecap:round;
-      stroke-miterlimit:10;
-      stroke-width:40px;}
-    </style>
     <circle class="a" cx="370" cy="370" r="350"/>
       <path class="b preload" d="M620.77,129.94L125.23,624.31A348.93,348.93,0,0,0,374.76,728.89c193.3,0,350-156.7,350-350A348.92,348.92,0,0,0,620.77,129.94Z" transform="translate(-4.76 -7.6)"/>
       <circle class="c" cx="370" cy="369" r="279.53"/>
@@ -93,6 +83,29 @@ $logo-size: 50px;
 
 .d {
   @include applyFinite(spinOut400, 0.3s, linear)
+}
+
+.a {
+  fill:#4ecdc4;
+}
+
+.b {
+  fill:#ffe66d;
+}
+
+.c {
+  fill:#f7fff7;
+}
+
+.d {
+  fill:#ff6b6b;
+}
+
+.e {
+  fill:none;stroke:#1a535c;
+  stroke-linecap:round;
+  stroke-miterlimit:10;
+  stroke-width:40px;
 }
 
 .logo {

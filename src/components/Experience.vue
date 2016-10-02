@@ -1,7 +1,24 @@
 <template>
-<section id="experience">
+<section id="experience" class="section-even">
   <div class="container animation-element">
     <h1>&#x1F4CB; Experience</h1>
+
+    <div class="row">
+      <div class="four columns">
+        <img src="https://www.splunk.com/content/dam/splunk/img/logo.png" style="max-width: 140px;" />
+        <p class="no-margin"><b>Splunk</b>
+        <p class="no-margin"><b>Front End Engineering Intern</b></p>
+        <p class="no-margin">(May 2016 - August 2016)</p>
+      </div>
+
+      <div class="eight columns align-left">
+        <ul>
+          <li class="li-entry">Redesigned Splunk's URL generation system, inventing a new, backwards-compatible system with an approximately 63% reduction in function arguments, and implemented the design concept with a focus on stable, test-driven development and ES6.</li>
+          <li class="li-entry">Customized a version of Splunk that was used at a sales demo showcasing an example of how OEM partners can customize Splunk.</li>
+          <li class="li-entry">Worked with BackboneJS and PostCSS technologies to refactor the production code for several of Splunk's pages.</li>
+        </ul>
+      </div>
+    </div>
 
     <div class="row">
       <div class="four columns">
@@ -25,7 +42,7 @@
       <div class="four columns">
         <img src="../assets/images/cory.jpg" style=" width: 80px; height: 80px; border-radius: 50%;" />
         <p class="no-margin"><b>EE16B Academic Intern</b></p>
-        <p class="no-margin">(Jan 2016 - Present)</p>
+        <p class="no-margin">(Jan 2016 - May 2016)</p>
       </div>
 
       <div class="eight columns align-left">

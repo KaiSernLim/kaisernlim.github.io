@@ -8,7 +8,6 @@
         <li><a href="#experience" class="button">Experience</a></li>
         <li><a href="#projects" class="button">Projects</a></li>
         <li><a href="#skills" class="button">Skills</a></li>
-        <li><a href="#interests" class="button">Interests</a></li>
         <li><a href="#contact" class="button">Contact</a></li>
       </div>
     </div>

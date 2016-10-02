@@ -30,15 +30,16 @@
     <!-- Used for Bootstrap Scrollspy -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="http://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
 
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="images/favicon.png">
   </head>
   <body>
-    <app></app>{% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
-    <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}"></script>{% } %}
+    <div class="app">
+      <app></app>{% for (var chunk in o.htmlWebpackPlugin.files.chunks) { %}
+      <script src="{%=o.htmlWebpackPlugin.files.chunks[chunk].entry %}"></script>{% } %}
+    </div>
   </body>
   <script>
     // Cache reference to window and animation items

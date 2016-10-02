@@ -1,5 +1,5 @@
 <template>
-<section id="projects" class="section-even">
+<section id="projects">
   <div class="container animation-element">
     <h1>&#x1F4BB; Projects</h1>
 

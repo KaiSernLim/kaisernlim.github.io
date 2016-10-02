@@ -1,5 +1,5 @@
 <template>
-<section id="academics" class="section-even">
+<section id="academics">
   <div class="container animation-element">
 
     <h1>&#x1F4DA; Academics</h1>
@@ -41,29 +41,4 @@
     </div>
   </div>
 </section>
-<!-- <h3>EECS:</h3>
-<ul>
-  <li>CS61A (The Structure &amp; Interpretation of Computer Programs)</li>
-  <li>CS61B (Data Structures)</li>
-  <li>CS61C (Great Ideas in Computer Architecture)</li>
-  <li>CS70 (Discrete Mathematics)</li>
-  <li>CS161 (Computer Security)</li>
-  <li>CS170 (Efficient Algorithms &amp; Intractable Problems)</li>
-  <li>CS189 (Machine Learning)</li>
-  <li>CS194-26 (Computational Photography &amp; Image Manipulation)</li>
-  <li>CS198 (Ruby on Rails Decal)</li>
-  <li>EE20 (The Structure &amp; Interpretation of Signals &amp; Systems)</li>
-  <li>EE40 (Microelectronic Circuits)</li>
-  <li>EE120 (Signals &amp; Systems)</li>
-  <li>EE123 (Digital Signal Processing)</li>
-  <li>EE126 (Probability &amp; Random Processes)</li>
-  <li>EECS149 (Embedded Systems)</li>
-</ul>
-<h3>Other:</h3>
-<ul>
-  <li>Math 53 (Multivariable Calculus)</li>
-  <li>Math 54 (Linear Algebra &amp; Differential Equations)</li>
-  <li>Physics 7A (Mechanics &amp; Wave Motion)</li>
-  <li>Physics 7B (Heat, Electricity &amp; Magnetism)</li>
-</ul> -->
 </template>
